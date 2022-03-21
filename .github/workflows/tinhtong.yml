@@ -1,0 +1,5 @@
+name: tinh tong cac so
+on:
+  push:
+    branches: [main]
+jobs:
