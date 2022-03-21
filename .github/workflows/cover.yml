@@ -1,6 +1,7 @@
 name: cover
 on:
-  push: branches:[main]
+  push:
+    branches: [main]
 jobs:
   cover_report:
     runs-on: ubuntu-latest
