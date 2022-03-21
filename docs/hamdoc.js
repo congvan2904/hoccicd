@@ -1,2 +1,2 @@
 console.log('Day la file hamdoc.js')
-console.log('chinh sua 3')
+console.log('chinh sua 4')

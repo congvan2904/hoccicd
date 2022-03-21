@@ -2,9 +2,9 @@ name: tinh tong cac so
 on:
   push:
     paths:
-      - "!readme.md"
-      - "!docs/**"
-      - "**.js"
+      - '!readme.md'
+      - '!docs/**'
+      - '**.js'
     # branches:
     #   - "main"
     #   - "!dev/**"
