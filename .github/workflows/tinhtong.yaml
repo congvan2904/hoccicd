@@ -13,6 +13,11 @@ on:
 jobs:
   tinh-tong:
     runs-on: ubuntu-latest
+    - uses: mheap/github-action-required-labels@v1
+      with:
+        mode: exactly
+        count: 0
+        labels: "do not build"
     steps:
       - run: echo helo tinh tong
       - run: echo "TODAY=$(date +%d/%m/%y)" >> $GITHUB_ENV
