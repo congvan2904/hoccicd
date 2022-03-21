@@ -5,9 +5,9 @@ on:
       - "!readme.md"
       - "!docs/**"
       - "**.js"
-    branches:
-      - "main"
-      - "!dev/**"
+    # branches:
+    #   - "main"
+    #   - "!dev/**"
 
 jobs:
   tinh-tong:
