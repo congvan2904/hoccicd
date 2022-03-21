@@ -8,4 +8,4 @@ jobs:
     steps:
       - run: echo helo tinh tong
       - run: echo "TODAY=$(date +%d/%m/%y)" >> $GITHUB_ENV
-      - run: Today is $TODAY
+      - run: echo Today is $TODAY
