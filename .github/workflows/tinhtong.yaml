@@ -6,4 +6,4 @@ jobs:
   tinh-tong:
     runs-on: ubuntu-latest
     steps:
-      - run: helo tinh tong
+      - run: echo helo tinh tong
