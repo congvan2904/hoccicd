@@ -14,11 +14,11 @@ jobs:
   tinh-tong:
     runs-on: ubuntu-latest
     steps:
-    - uses: mheap/github-action-required-labels@v1
-      with:
-        mode: exactly
-        count: 0
-        labels: "do not build"
+      - uses: mheap/github-action-required-labels@v1
+        with:
+          mode: exactly
+          count: 0
+          labels: "do not build"
       - run: echo helo tinh tong
       - run: echo "TODAY=$(date +%d/%m/%y)" >> $GITHUB_ENV
       - run: echo Today is $TODAY
