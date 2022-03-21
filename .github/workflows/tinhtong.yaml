@@ -1,7 +1,13 @@
 name: tinh tong cac so
 on:
   push:
-    branches: [main]
+    path:
+      - "!readme.md"
+      - "!docs/**"
+      - "**.js"
+    branches:
+      - "main"
+      - "!dev/**"
 jobs:
   tinh-tong:
     runs-on: ubuntu-latest
